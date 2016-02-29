@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperatorManageForm", "OperatorManageForm.csproj", "{6320F98C-3553-46A2-BD25-744B7E09EA27}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{6320F98C-3553-46A2-BD25-744B7E09EA27}.Debug.ActiveCfg = Debug|.NET
+		{6320F98C-3553-46A2-BD25-744B7E09EA27}.Debug.Build.0 = Debug|.NET
+		{6320F98C-3553-46A2-BD25-744B7E09EA27}.Release.ActiveCfg = Release|.NET
+		{6320F98C-3553-46A2-BD25-744B7E09EA27}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

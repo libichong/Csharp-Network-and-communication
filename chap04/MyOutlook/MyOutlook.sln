@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyOutlook", "MyOutlook.csproj", "{13516EA2-3BCE-492A-B584-69486D20EFCA}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailClient", "..\MailClient\MailClient.csproj", "{74598B8C-2FFC-4566-9A15-E6F85E66F523}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{13516EA2-3BCE-492A-B584-69486D20EFCA}.Debug.ActiveCfg = Debug|.NET
+		{13516EA2-3BCE-492A-B584-69486D20EFCA}.Debug.Build.0 = Debug|.NET
+		{13516EA2-3BCE-492A-B584-69486D20EFCA}.Release.ActiveCfg = Release|.NET
+		{13516EA2-3BCE-492A-B584-69486D20EFCA}.Release.Build.0 = Release|.NET
+		{74598B8C-2FFC-4566-9A15-E6F85E66F523}.Debug.ActiveCfg = Debug|.NET
+		{74598B8C-2FFC-4566-9A15-E6F85E66F523}.Debug.Build.0 = Debug|.NET
+		{74598B8C-2FFC-4566-9A15-E6F85E66F523}.Release.ActiveCfg = Release|.NET
+		{74598B8C-2FFC-4566-9A15-E6F85E66F523}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelnetClient", "TelnetClient.csproj", "{56E59B7F-9733-45CA-9B22-D9F383C75BCB}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{56E59B7F-9733-45CA-9B22-D9F383C75BCB}.Debug.ActiveCfg = Debug|.NET
+		{56E59B7F-9733-45CA-9B22-D9F383C75BCB}.Debug.Build.0 = Debug|.NET
+		{56E59B7F-9733-45CA-9B22-D9F383C75BCB}.Release.ActiveCfg = Release|.NET
+		{56E59B7F-9733-45CA-9B22-D9F383C75BCB}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

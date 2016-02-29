@@ -1,0 +1,37 @@
+<?xml version="1.0" standalone="yes" ?>
+<xs:schema id="DataSetMailAccounts" targetNamespace="http://www.tempuri.org/DataSetMailAccounts.xsd"
+	xmlns:mstns="http://www.tempuri.org/DataSetMailAccounts.xsd" xmlns="http://www.tempuri.org/DataSetMailAccounts.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+	attributeFormDefault="qualified" elementFormDefault="qualified">
+	<xs:element name="DataSetMailAccounts" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="MailAccounts">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Account" type="xs:string" minOccurs="0" />
+							<xs:element name="IncomingMailServer" type="xs:string" minOccurs="0" />
+							<xs:element name="InPassword" type="xs:string" minOccurs="0" />
+							<xs:element name="InPort" type="xs:short" minOccurs="0" />
+							<xs:element name="InUserID" type="xs:string" minOccurs="0" />
+							<xs:element name="IsLeaveMessage" type="xs:boolean" minOccurs="0" />
+							<xs:element name="IsOutgoingAuthorized" type="xs:boolean" minOccurs="0" />
+							<xs:element name="IsTheSameWithIncoming" type="xs:boolean" minOccurs="0" />
+							<xs:element name="MailAccountID" msdata:AutoIncrement="true" type="xs:int" />
+							<xs:element name="OutgoingMailServer" type="xs:string" minOccurs="0" />
+							<xs:element name="OutPassword" type="xs:string" minOccurs="0" />
+							<xs:element name="OutPort" type="xs:short" minOccurs="0" />
+							<xs:element name="OutUserID" type="xs:string" minOccurs="0" />
+							<xs:element name="ServerType" type="xs:string" minOccurs="0" />
+							<xs:element name="Type" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="Constraint1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:MailAccounts" />
+			<xs:field xpath="mstns:MailAccountID" />
+		</xs:unique>
+	</xs:element>
+</xs:schema>
